@@ -17,7 +17,7 @@ public class MailSender {
 
     public boolean send(String to, String text) throws MessagingException {
 
-        String from = "Alibek@gmail.com";
+        String from = "qmuxriddin66@gmail.com";
         MimeMessage mimeMessage = mailSender.createMimeMessage();
         MimeMessageHelper mimeMessageHelper = new MimeMessageHelper(mimeMessage);
 
